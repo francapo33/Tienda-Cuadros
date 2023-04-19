@@ -1,0 +1,48 @@
+.articulos{
+    display: flex;
+    margin: 10px;
+}
+
+p{
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.seccion{
+    margin: auto;
+    width: 80%;
+    background-color: #D4A26A;
+}
+
+body{
+    background-color: #FFD7AA;
+    margin: 0;
+}
+
+.titu_imagen{
+    width: 500px;
+}
+
+.pie_imagen{
+    margin: auto;   
+    background-color: red;
+    display:flex;
+    justify-content: space-between ;
+    width: 80%;
+}
+
+.nav{
+    background-color: rgb(126, 126, 126);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    /* background-color: aqua; */
+}
+
+.logo_empresa{
+    display:flex;
+    align-items: center;
+}
