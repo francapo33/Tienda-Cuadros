@@ -2,7 +2,7 @@
 
 
 $email = $_POST['email'];
-
-echo $asdasdas;
-
+$password = $_POST['password'];
+echo $email;
+echo $password;
 ?>
