@@ -1,19 +1,21 @@
 
+
 <a href="index.html">INICIO</a>
 
-<form>
-    <div>
-      <label>Correo electrónico</label>
-      <input type="email">
-      <div>Nunca compartiremos su correo electrónico con nadie más.</div>
-    </div>
-    <div>
-      <label>Contraseña</label>
-      <input type="password">
-    </div>
-    <div>
-      <input type="checkbox">
-      <label>Verificado</label>
-    </div>
-    <button type="submit">Enviar</button>
-  </form>
+<form name="form" method="post" action="back.php">
+  <div>
+    <label>Correo electrónico</label>
+    <input type="email" id="email" name="email">
+    <div>Nunca compartiremos su correo electrónico con nadie más.</div>
+  </div>
+  <div>
+    <label>Contraseña</label>
+    <input type="password" id="password" name="password">
+  </div>
+  <div>
+    <input type="checkbox" id="checkbox" name="checkbox">
+    <label>Verificado</label>
+  </div>
+  <input type="submit">
+</form>
+
